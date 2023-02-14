@@ -8,7 +8,7 @@ import os
 # ritorna alla combinazione di colore base
 colorama.init(autoreset=True)
 
-
+# DISEGNA UNA GRIGLIA CON LE DIMENSIONI PASSATE
 def griglia(ncol, nrig):
     coln = ncol - 1
 
@@ -51,6 +51,9 @@ def griglia(ncol, nrig):
         print(riga_med)
     print(riga_inf)
 
+ 
+# GESTISCE L'INSERIMENTO DI UN CARATTERE NELLA GRIGLIA
+# 'COLONNA' E 'RIGA' SONO LE COORDINATE RELATIVE ALLA GRIGLIA
 def print_xy(colonna, riga, char, color):
     colbase = 3
     rigbase = 2
