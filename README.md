@@ -1,5 +1,5 @@
 # pyGriglia
-Progettare una griglia in una finestra di terminale con Python
+## Progettare una griglia in una finestra di terminale con Python
 
 Esistono molti moduli e librerie integrati in Python per stampare il testo colorato nel terminale. 
 
