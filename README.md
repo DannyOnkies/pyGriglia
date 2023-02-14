@@ -9,13 +9,10 @@ Questa libreria può essere utilizzata per aggiungere colore e stile al testo st
 
 In particolare, Colorama fornisce le seguenti funzionalità:
 
-Colori del testo: permette di stampare testo colorato sulla console, specificando il colore desiderato attraverso costanti come Fore.BLUE o Fore.RED.
-
-Colori di sfondo: permette di stampare un colore di sfondo per il testo.
-
-Effetti di formattazione: permette di applicare effetti di formattazione come il grassetto, il sottolineato e l'inversione del testo.
-
-Ripristino dello stile: permette di ripristinare lo stile di stampa predefinito dopo aver applicato effetti di formattazione o colori.
+* Colori del testo: permette di stampare testo colorato sulla console, specificando il colore desiderato attraverso costanti come Fore.BLUE o Fore.RED.
+* Colori di sfondo: permette di stampare un colore di sfondo per il testo.
+* Effetti di formattazione: permette di applicare effetti di formattazione come il grassetto, il sottolineato e l'inversione del testo.
+* Ripristino dello stile: permette di ripristinare lo stile di stampa predefinito dopo aver applicato effetti di formattazione o colori.
 
 In sintesi, Colorama semplifica la creazione di output console più leggibile e facile da interpretare.
 
