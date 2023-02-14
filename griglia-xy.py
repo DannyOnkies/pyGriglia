@@ -61,8 +61,10 @@ def print_xy(colonna, riga, char, color):
     steprig = 2
     print(color + Cursor.POS(colbase + stepcol * colonna, rigbase + steprig * riga) + char)
 
-
-os.system('cls')  # cancello il terminale
+# CANCELLA IL TERMINALE
+# FUNZIONA SOLO SU WINDOWS
+# SU LINUX UTILIZZARE 'clear'.
+os.system('cls')
 
 # CREA UNA GRIGLIA 
 col = 8
@@ -70,7 +72,10 @@ rig = 5
 griglia(col, rig)
 
 
-# ========================== ESEMPI D'USO ===============================
+# ========================== 
+#      ESEMPI D'USO 
+# ==========================
+
 # DISEGNA UN ROMBO
 print_xy(2, 0, '+', Fore.GREEN)
 print_xy(3, 1, '+', Fore.GREEN)
