@@ -21,10 +21,10 @@ def griglia(ncol, nrig):
     ang_inf_dx = chr(base + 96)  # ┘
     linea_oriz = chr(base + 72)  # ─
     linea_vert = chr(base + 74)  # │
-    sep_sup = chr(base1 + 16)  # ┬
-    sep_inf = chr(base1 + 24)  # ┴
-    sep_sx = chr(base1 + 0)  # ├
-    sep_dx = chr(base1 + 8)  # ┤
+    sep_sup = chr(base1 + 16)    # ┬
+    sep_inf = chr(base1 + 24)    # ┴
+    sep_sx = chr(base1 + 0)      # ├
+    sep_dx = chr(base1 + 8)      # ┤
     sep_cross = chr(base1 + 32)  # ┼
     spazio = chr(32)
 
@@ -32,9 +32,9 @@ def griglia(ncol, nrig):
     linea3 = linea_oriz * 3
     spazio3 = spazio * 3
 
-    step_sup = sep_sup + linea3  # ┬───
+    step_sup = sep_sup + linea3      # ┬───
     step_med = linea_vert + spazio3  # │
-    step_inf = sep_inf + linea3  # ┴───
+    step_inf = sep_inf + linea3      # ┴───
     step_cross = sep_cross + linea3
 
     # GESTIONE COLONNE
@@ -66,6 +66,8 @@ col = 8
 rig = 5
 griglia(col, rig)
 
+
+# ========================== ESEMPI D'USO ===============================
 # DISEGNA UN ROMBO
 print_xy(2, 0, '+', Fore.GREEN)
 print_xy(3, 1, '+', Fore.GREEN)
@@ -84,5 +86,5 @@ row = 4
 for colonna in range(col):
     print_xy(colonna,row,'-',Fore.YELLOW)
 
-
+# SPOSTA IL CURSORE NELL'ULTIMA RIGA DELLO SCHERMO
 print(Cursor.POS(3, 25))
