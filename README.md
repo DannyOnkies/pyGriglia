@@ -11,5 +11,5 @@ Questi sono Back , Fore e Style .
 
 Il colore di sfondo o di primo piano del testo e lo stile del testo possono essere modificati da questo modulo
 
-https://github.com/DannyOnkies/pyGriglia/blob/main/Cattura.JPG
+![image] : "https://github.com/DannyOnkies/pyGriglia/blob/main/Cattura.JPG"
 
